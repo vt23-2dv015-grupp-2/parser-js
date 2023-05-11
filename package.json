@@ -1,0 +1,24 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vt23-2dv015-grupp-2/parser-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vt23-2dv015-grupp-2/parser-js/issues"
+  },
+  "homepage": "https://github.com/vt23-2dv015-grupp-2/parser-js#readme"
+}
