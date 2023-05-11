@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/vt23-2dv015-grupp-2/parser-js/issues"
   },
-  "homepage": "https://github.com/vt23-2dv015-grupp-2/parser-js#readme"
+  "homepage": "https://github.com/vt23-2dv015-grupp-2/parser-js#readme",
+  "dependencies": {
+    "docx": "^8.0.4",
+    "jszip": "^3.10.1",
+    "xmldom": "^0.6.0"
+  }
 }

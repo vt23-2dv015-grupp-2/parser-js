@@ -2,10 +2,12 @@ import fs from 'fs'
 import path from 'path'
 import { Tokeniser } from './Tokeniser.js'
 
-function main() {
+ function main() {
   getPaths()
-    .then((paths) => {
+    .then(async paths => {
       const tokeniser = new Tokeniser(paths)
+      const documents = await tokeniser.getDocuments()
+      console.log(documents)
     })
     .catch((err) => {
       console.log('Error getting paths:', err)
