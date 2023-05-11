@@ -2,13 +2,13 @@
   "name": "parser",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Main.js",
   "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node Main.js"
   },
   "repository": {
     "type": "git",
